@@ -28,7 +28,7 @@ nav, a {
     text-decoration: none;
 }
 
-a:hover{
+nav a:hover{
     text-decoration: underline;
 }
 
@@ -38,15 +38,29 @@ a:hover{
     padding: 50px 0;
 }
 
+.produtos li:hover {
+    border-color: #c78c19;
+    font-size: 40px;
+}
+
+.produtos li:active{
+    border-color: #088C19;
+}
+
+.produtos li:hover h2{
+    font-size: 34px;
+}
+
 .produtos li{
     display: inline-block;
     text-align: center;
     width: 30%;
     vertical-align: top;
-    
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid #000;
 }
 
 .produtos h2{
@@ -62,4 +76,16 @@ a:hover{
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background: url("/HTML/Img/bg.jpg");
+    padding: 40px 0px;
+}
+
+.Direitos{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0 ;
 }
