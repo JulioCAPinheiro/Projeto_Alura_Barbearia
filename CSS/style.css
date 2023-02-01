@@ -52,6 +52,7 @@ main{
 }
 
 .principal p {
+    margin: 25px;
     text-align: center;
     font-size: 18px;
 }
@@ -99,7 +100,7 @@ footer{
 }
 
 .Direitos{
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 13px;
     margin: 20px 0 0 ;
 }
